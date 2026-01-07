@@ -1,42 +1,52 @@
-Simon Says
+# 🎮 Simon Says Game
 
-A classic memory game built with HTML, CSS, and JavaScript. The player must remember and repeat an increasing sequence of color flashes. The sequence gets longer and more challenging each level, testing memory and focus.
+A classic memory game built with **HTML, CSS, and JavaScript**.
+The player must remember and repeat an increasing sequence of color flashes.
+Each level adds a new color, making the game more challenging and fun.
 
-Features
+---
 
-Classic Simon-style gameplay
+## ✨ Features
 
-Randomized color sequences
+* 🎯 Classic Simon-style gameplay
+* 🎨 Randomized color sequences
+* 📈 Progressive difficulty with levels
+* 💡 Interactive UI with animations
+* ⚡ Dynamic DOM updates and event handling
 
-Level progression
+---
 
-Interactive UI with animations
+## 🕹️ How to Play
 
-Dynamic DOM updates and event handling
+1. Open `index.html` in your web browser
+2. Press **any key** to start the game
+3. Watch the sequence of highlighted colors
+4. Click the buttons in the **same order**
+5. The sequence increases after each successful level
+6. The game ends if you make a mistake
 
-How to Play
+---
 
-Open index.html in your web browser.
+## 📁 Project Structure
 
-Press any key or start the game.
+```
+Simon_Says/
+│
+├── index.html   # Game UI layout
+├── style.css    # Styles and animations
+└── app.js       # Game logic and interactions
+```
 
-Watch the sequence of highlighted colors.
+---
 
-Click the buttons in the same order.
+## 🛠️ Technologies Used
 
-The sequence increases after each successful level.
+* **HTML5** — Page structure
+* **CSS3** — Styling and animations
+* **JavaScript** — Game logic and event handling
 
-The game ends if you make a mistake.
 
-Project Structure
-├── index.html        — Game UI layout  
-├── style.css         — Styles and animations  
-├── app.js            — Game logic and interaction  
 
-Technologies Used
 
-HTML5 — Page structure
 
-CSS3 — Styling and animations
 
-JavaScript — Game logic and event handling
