@@ -53,7 +53,7 @@ function checkAns(idx){
         }
     }
     else{
-        h2.innerHTML=`Game Over! Your score was <b> ${level-1} <b> <br> Press any key to start`;
+        h2.innerHTML=`Game Over! Your score was <b> ${level} <b> <br> Press any key to start`;
         document.querySelector("body").classList.add("red");
         setTimeout(()=>{
             document.querySelector("body").classList.remove("red");
